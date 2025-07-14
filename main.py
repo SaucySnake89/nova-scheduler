@@ -5,6 +5,7 @@ from datetime import datetime, time, timedelta
 import pytz # For timezone handling
 from discord.ext import tasks # Import tasks for background loops
 import nest_asyncio
+import webserver
 
 nest_asyncio.apply()
 
@@ -377,6 +378,7 @@ async def on_message(message):
         # If a command is not recognized or not allowed for the user
         await message.channel.send(f"Unknown command: `{command}`. Try `!schedule` or `!settimezone`.")
 
+webserver.keep_alive()
 
 # --- Run the Bot ---
 if TOKEN:
