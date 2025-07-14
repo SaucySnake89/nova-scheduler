@@ -1,0 +1,4 @@
+discord.py
+pytz
+datetime
+nest_asyncio

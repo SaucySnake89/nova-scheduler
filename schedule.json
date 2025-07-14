@@ -1,0 +1,24 @@
+{
+    "streams": [
+        {
+            "datetime": "2025-07-21 13:00",
+            "original_timezone": "Europe/London",
+            "description": "Stream"
+        },
+        {
+            "datetime": "2025-07-22 13:00",
+            "original_timezone": "Europe/London",
+            "description": "Stream"
+        },
+        {
+            "datetime": "2025-07-23 13:00",
+            "original_timezone": "Europe/London",
+            "description": "Stream"
+        }
+    ],
+    "user_timezones": {
+        "1292222071992094740": "Asia/Kuala_Lumpur"
+    },
+    "announcement_channel_id": 1393167002650017856,
+    "last_announced_date_utc": "2025-07-13"
+}

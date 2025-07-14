@@ -1,0 +1,7 @@
+!schedule
+!settimezone <timezone_name>
+
+!addstream YYYY-MM-DD HH:MM OriginalTZ Description
+!liststreams
+!removestream <index> #use !liststreams to see index
+!setannouncechannel <channel_id>
